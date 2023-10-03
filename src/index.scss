@@ -1,10 +1,10 @@
-*, ::after, ::before {
-    padding: 0;
-    margin: 0;
-    font-family: "Inter", sans-serif;
-    text-rendering: optimizeLegibility;
-    -webkit-font-smoothing: antialiased;
-    background-color: #555555;
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Inter", sans-serif;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  background-color: #555555;
 }
 
 html {
@@ -21,7 +21,8 @@ html {
   }
 }
 
-div {
+// chữ nhấp nháy :))) 
+.chu-nhap-nhay {
   background: #3d3d3d;
   font-size: 24px;
   font-weight: bold;
@@ -31,34 +32,34 @@ div {
 	-webkit-animation: nhapnhay 700ms infinite;
 	-moz-animation: nhapnhay 700ms infinite; 
 	-o-animation: nhapnhay 700ms infinite; 
-	animation: nhapnhay 700ms infinite;
+  animation: nhapnhay 700ms infinite;
   // thêm hoạt ảnh
-  @-webkit-keyframes nhapnhay {
-    0% { color: #f6ff54;  } 
-    25% { color: #4ce6e6; }
-	  50% { color: #ffbdbd;  }
-    75% { color: #41ff3b; }
-	  100% { color: #8000ff;  } 
-  }
-  @-moz-keyframes nhapnhay { 
-	  0% { color: #f6ff54;  } 
-    25% { color: #4ce6e6; }
-	  50% { color: #ffbdbd;  }
-    75% { color: #41ff3b; }
-	  100% { color: #8000ff;  } 
-  }
-  @-o-keyframes nhapnhay { 
-	  0% { color: #f6ff54;  } 
-    25% { color: #4ce6e6; }
-	  50% { color: #ffbdbd;  }
-    75% { color: #41ff3b; }
-	  100% { color: #8000ff;  } 
-  }
-  @keyframes nhapnhay { 
-	  0% { color: #f6ff54;  } 
-    25% { color: #4ce6e6; }
-	  50% { color: #ffbdbd;  }
-    75% { color: #41ff3b; }
-	  100% { color: #8000ff;  } 
-  }
+      @-webkit-keyframes nhapnhay {
+        0% { color: #f6ff54;  } 
+        25% { color: #4ce6e6; }
+	      50% { color: #ffbdbd;  }
+        75% { color: #41ff3b; }
+	      100% { color: #8000ff;  } 
+      }
+      @-moz-keyframes nhapnhay { 
+	      0% { color: #f6ff54;  } 
+        25% { color: #4ce6e6; }
+	      50% { color: #ffbdbd;  }
+        75% { color: #41ff3b; }
+	      100% { color: #8000ff;  } 
+      }
+      @-o-keyframes nhapnhay { 
+	      0% { color: #f6ff54;  } 
+        25% { color: #4ce6e6; }
+	      50% { color: #ffbdbd;  }
+        75% { color: #41ff3b; }
+	      100% { color: #8000ff;  } 
+      }
+      @keyframes nhapnhay { 
+        0% { color: #f6ff54;  } 
+        25% { color: #4ce6e6; }
+	      50% { color: #ffbdbd;  }
+        75% { color: #41ff3b; }
+	      100% { color: #8000ff;  } 
+      }
 }
